@@ -38,7 +38,7 @@ def run_length_decode(rel, H, W, fill_value=255):
     return mask
 
 if __name__ == "__main__":
-    test_path = '../input/stage1_test/'
+    test_path = 'input/stage1_test/'
     X_test, test_informs = make_test_data_frame(test_path)
     test_num = len(test_informs)
     csv_file = 'submission-ss.csv'
